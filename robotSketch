@@ -84,7 +84,7 @@ void loop() {
         motor3.setSpeed(motor_sp);
         motor3.run(BACKWARD);
       }
-     /* //時計回り
+      //時計回り
       else if (pos_ly < 117 && pos_ry > 137) {
         motor1.setSpeed(motor_sp1);
         motor1.run(FORWARD);
@@ -98,7 +98,7 @@ void loop() {
         motor1.run(BACKWARD);
         motor3.setSpeed(motor_sp1);
         motor3.run(FORWARD);
-      }*/
+      }
 
     }
   }
